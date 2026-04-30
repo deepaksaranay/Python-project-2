@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "89a119cd-ea9f-4e16-a362-b8a7719cae95",
+      "cell_type": "code",
+      "source": "for i in range(1, 11):\n    if i % 2 == 0:\n        print(i)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "2\n4\n6\n8\n10\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "790ac9c3-241e-4bd6-8f1f-e0d6c55ad07e",
+      "cell_type": "code",
+      "source": "# Logic to print even numbers up to 10\nfor i in range(1, 11):\n    if i % 2 == 0:\n        print(i)\n        ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "2\n4\n6\n8\n10\n"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "id": "2f2721ef-d977-4a33-82c9-a61e329fef39",
+      "cell_type": "code",
+      "source": "# Simple logic to check access\nage = int(input(\"Enter age: \"))\nif age >= 18:\n    print(\"Access Granted\")\nelse:\n    print(\"Access Denied\")\n    ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "Enter age:  23\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Access Granted\n"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "f3607d13-270d-4705-bdf8-add17ea91226",
+      "cell_type": "code",
+      "source": "# Range checking logic\nscore = 85\nif score >= 0 and score <= 100:\n    print(\"Valid Score\")\nelse:\n    print(\"Invalid Score\")\n    ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Valid Score\n"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "id": "118a463d-7b0c-4bea-af5a-9f8d6a4fbcd0",
+      "cell_type": "code",
+      "source": "def greet(name, age):\n    print(f\"Hello {name}, you are {age}\")\n\ngreet(\"Alice\", 25)  # \"Alice\" goes to name, 25 goes to age\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello Alice, you are 25\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "0083f4b0-cc35-4954-832e-de7605fc7a93",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
